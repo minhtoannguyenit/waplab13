@@ -11,12 +11,14 @@ let books = [
     title: 'Book 2',
     isbn: '978-1234445667',
     publishedDate: '1943-04-06',
+    author: 'ABC',
   },
   {
     id: 3,
     title: 'Book 3',
     isbn: '978-0102938342',
     publishedDate: '2003-03-18',
+    author: 'DEFFFF',
   }
 ];
 
