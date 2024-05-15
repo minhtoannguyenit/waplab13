@@ -1,0 +1,31 @@
+GET http://localhost:3000/books
+
+
+#####
+GET http://localhost:3000/books/1
+
+
+#####
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+  "title": "Book 4",
+  "ibsn": "000-112443838",
+  "author": "Author 4",
+  "publishedDate": "2019-01-01"
+}
+
+#####
+PUT http://localhost:3000/books/1
+Content-Type: application/json
+
+{
+  "title": "Book XXXX",
+  "ibsn": "124-112443838",
+  "author": "Toan Nguyen",
+  "publishedDate": "2019-01-01"
+}
+
+#####
+DELETE http://localhost:3000/books/1
