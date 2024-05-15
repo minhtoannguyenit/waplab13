@@ -4,21 +4,21 @@ let books = [
     title: 'Book 1',
     isbn: '978-0062315007',
     publishedDate: '1988-01-01',
-    author: 'Paulo Coelho',
+    author: 'Paulo Coelho'
   },
   {
     id: 2,
     title: 'Book 2',
     isbn: '978-1234445667',
     publishedDate: '1943-04-06',
-    author: 'ABC',
+    author: 'ABC'
   },
   {
     id: 3,
     title: 'Book 3',
     isbn: '978-0102938342',
     publishedDate: '2003-03-18',
-    author: 'DEFFFF',
+    author: 'DEFFFF'
   }
 ];
 
